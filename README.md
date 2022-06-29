@@ -1,1 +1,1 @@
-Webpage of GEC goa redesigned.
+Webpage of GEC redesigned.
