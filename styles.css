@@ -1,0 +1,95 @@
+body{
+    background-color: #8598de;
+}
+  
+.name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.server{
+    text-align: center;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+.main-block{
+    background-color: #6775a8;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bt-ls{
+    display: inline-flex;
+    list-style: none;
+}
+.links{
+    color: #fff;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: #8598de;
+    border: none;
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.footer-block{
+    background-color: #6775a8;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+    width: 1185px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ft-list{
+    display: inline;
+    margin-left: -10px;
+}
+.ft-ls{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+    border:2px solid #6775a8;
+}
+
+.ft-ls:hover{
+    transition: 0.3s ease-in-out;
+    border:2px solid #fff
+}
+
+
+.ft-links{
+    font-size: 15px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.ft-links:hover{
+    color:#fff;
+}
+
+hr{
+    width: 90%;
+}
