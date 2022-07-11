@@ -88,6 +88,7 @@ body{
     float: right;
     color: #fff;
     font-size: 14px;
+    margin-top: -5px;
     margin-right: 120px;
     transition: ease-in-out 0.2s;
     display: inline-flex;
