@@ -1,25 +1,26 @@
 body{
-    background-color: #8598de;
+    background-color: #92fea4;
 }
 
 .header{
     top: 0;
     position: sticky;
+    z-index: 1;
 }
 /*names*/
 .name{
-    font-family: 'Gantari', sans-serif;
-    color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #3c3c3c;
     padding: 20px;
     margin-top:100px;
     margin-left:100px;
-    background-color: #8598de;
+    background-color: #92fea4;
 }
 
 .server{
     text-align: center;
-    color: #fff;
-    font-family: 'Gantari', sans-serif;
+    color: #3c3c3c;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 
@@ -31,7 +32,7 @@ body{
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #8598de;
+    background-color: #92fea4;
     overflow-x: hidden;
     transition: 0.5s ease-in-out;
     padding-top: 60px;
@@ -43,14 +44,15 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 25px;
-    color: #fff;
+    color: #3c3c3c;
+    border: 1px solid #3c3c3c;
     display: block;
     transition: 0.5s;
 }
 
 .sidenav a:hover {
     color: #fff;
-    background-color: #6775a8;
+    background-color: #3c3c3c;
 }
 
 .sidenav .closebtn {
@@ -62,7 +64,7 @@ body{
     margin-left: 50px;
     font-size: 16px;
     border-radius: 7px;
-    font-family: 'Gantari', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 @media screen and (max-height: 450px) {
@@ -71,7 +73,7 @@ body{
 }
 
 .side_text {
-    font-family: 'Gantari', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 15px;
     padding: 15px;
     list-style: none;
@@ -81,12 +83,13 @@ body{
 }
 
 .menu {
-    background-color: #6775a8;
-    font-family: 'Gantari', sans-serif;
+    background-color: #92fea4;
+    border: 1px solid #3c3c3c;
+    font-family: 'Red Hat Display', sans-serif;
     padding: 10px;
     border-radius: 7px;
     float: right;
-    color: #fff;
+    color: #3c3c3c;
     font-size: 14px;
     margin-top: -5px;
     margin-right: 120px;
@@ -110,28 +113,29 @@ body{
 
 /*main*/
 .main-block{
-    background-color: #6775a8;
+    background-color: #92fea4;
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 100px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border: 1px solid #3c3c3c;
 }
 
 .main-name{
-    color: #fff;
+    color: #3c3c3c;
     text-align: center;
-    font-family: 'Gantari', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     padding-top: 20px;
     padding-bottom: 10px;
     opacity: 70%;
 }
 
 .main-para{
-    color: #fff;
+    color: #3c3c3c;
     margin-left: 60px;
     margin-right: 60px;
-    font-family: 'Gantari', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     padding-bottom: 50px;
     opacity: 70%;
     font-size: 18px;
@@ -140,7 +144,7 @@ body{
 
 /*footer*/
 .footer-block{
-    background-color: #6775a8;
+    background-color: #92fea4;
     margin-top: 50px;
     margin-left: 120px;
     margin-right: 120px;
@@ -150,13 +154,14 @@ body{
     padding: 20px;
     width: auto;
     bottom: 0;
+    border: 1px solid #3c3c3c;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .ft-txt{
-    font-family: 'Gantari', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     text-align: center;
-    color: #fff;
+    color: #3c3c3c;
     opacity: 70%;
 }
 
