@@ -1,46 +1,110 @@
-<html>
-  <head>
-    <title>Rohan Aroskar</title>
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    <link rel="icon" type="image/x-icon" href="https://seeklogo.com/images/P/phoenix-logo-D15F067911-seeklogo.com.png">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
-    <script src="https://maps.googleapis.com/maps/api/js?key=###yourapikey###&v=3.exp&sensor=false&libraries=places"></script>
+.sign-in{
+    display: grid;
+    justify-content: center;
+
+    width: 100px;
+    height: 300px;
     
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+    position: absolute;
+    top:-70;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.main-name{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    color: #fff;
+}
 
-  <body>
+#name{
+    text-decoration: none;
+    color: #fff;
+}
+
+.album-div{
+    display: grid;
+    justify-content: center;
+    margin-top: 0px;
+    width: 400px;
+    height: 100px;
     
+}
 
-    <div class="sign-in">
-        <h2 class="main-name"><a href="about-me.html" id="name">Rohan Aroskar</a></h2>
-        
-        <div class="album-div">
-            <ul class="album">
-                <a href="https://www.instagram.com/wushi.44/" class="album-lnk" target="_blank"><li class="album-ls">
-                    <img src="insta.png" class="album-img">Instagram
-                </li></a>
-
-                <a href="https://twitter.com/RohanAroskar44" class="album-lnk" target="_blank"><li class="album-ls">
-                    <img src="tw.png" class="album-img">Twitter
-                </li></a>
-
-                <a href="https://www.reddit.com/user/WushiSushi" class="album-lnk" target="_blank"><li class="album-ls">
-                    <img src="rd.png" class="album-img">Reddit
-                </li></a>
-            </ul>
-        </div>
-        <footer>
-          <h5>Discord: Wushi#4472</h5>
-          <h5>Snapchat: rohan.aroskar</h5>
-        </footer>
-    </div>
-
-
+.album{
+    list-style: none;
+    display: inline-flex;
+    margin-left: -50px;
     
+}
 
-  </body>
-</html>
+.album-img{ 
+    height: 70px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+}
+
+.album-ls{
+    text-align: center;
+    position: relative;
+    display: block;
+    top: 0;
+    transition: 0.2s ease-in-out;
+    color: #ff5a5a00;
+    filter:grayscale(100%);
+    filter:drop-shadow(0px);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.album-ls:hover{
+    transition: 0.5s ease-in-out;
+    top: -20px;
+    color: #fff;
+    filter:drop-shadow(10px);
+    filter:grayscale(0%);
+}
+.album-lnk{
+    text-decoration: none;
+}
+.album-lnk:visited{
+    text-decoration: none;
+}
+
+.album-lnk:active{
+    text-decoration: none;
+}
+
+li{
+    padding: 20px;
+}
+
+
+footer{
+    display: block;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 60px;
+}
+
+footer h5{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    margin-top: 20;
+    color: #fff;
+}
+
+
+
+
