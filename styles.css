@@ -2,18 +2,8 @@ body{
     background-image: url('14731307_rm218-bb-07.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    animation: fadeInAnimation ease 3s
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-}
+
 
 .sign-in{
     display: grid;
@@ -30,7 +20,9 @@ body{
     margin: auto;
 }
 .main-name{
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Questrial', sans-serif;
+
+;
     text-align: center;
     color: #fff;
 }
@@ -38,7 +30,27 @@ body{
 #name{
     text-decoration: none;
     color: #fff;
+    transition: 0.2s ease-in-out;
 }
+
+#name:hover{
+    opacity: 70%;
+    transition: 0.2s ease-in-out;
+}
+
+
+#snapchat{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+#snapchat:hover{
+    opacity: 70%;
+    transition: 0.2s ease-in-out;
+    font-size: 15px;
+}
+
 
 .album-div{
     display: grid;
@@ -75,7 +87,9 @@ body{
     color: #ff5a5a00;
     filter:grayscale(100%);
     filter:drop-shadow(0px);
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Questrial', sans-serif;
+
+;
 }
 .album-ls:hover{
     transition: 0.5s ease-in-out;
@@ -110,12 +124,8 @@ footer{
 }
 
 footer h5{
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
     margin-top: 20;
     color: #fff;
 }
-
-
-
-
