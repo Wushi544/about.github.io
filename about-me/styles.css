@@ -1,0 +1,36 @@
+body{
+    background-image: url('14731307_rm218-bb-07.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main{
+    display: grid;
+    justify-content: center;
+
+    max-width: 700px;
+    height: 300px;
+    
+    position: absolute;
+    top:-70;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+p{
+    padding: 25px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
