@@ -20,7 +20,7 @@ body{
     margin: auto;
 }
 .main-name{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Major Mono Display', monospace;
     text-align: center;
     color: #fff;
 }
@@ -102,7 +102,7 @@ body{
     color: #ff5a5a00;
     filter:grayscale(100%);
     filter:drop-shadow(0px);
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Major Mono Display', monospace;
 }
 
 .album-ls:hover{
@@ -138,7 +138,7 @@ footer{
 }
 
 footer h5{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Major Mono Display', monospace;
     text-align: center;
     margin-top: 20;
     color: #fff;
