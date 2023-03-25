@@ -20,9 +20,7 @@ body{
     margin: auto;
 }
 .main-name{
-    font-family: 'Questrial', sans-serif;
-
-;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     color: #fff;
 }
@@ -78,6 +76,23 @@ body{
     border-radius: 10px;
 }
 
+.album-img-tw{ 
+    height: 70px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    filter: invert(50%);
+    transition: 0.2s ease-in-out;
+}
+
+.album-img-tw:hover{ 
+    filter: invert(100%);
+    transition: 0.2s ease-in-out;
+}
+
 .album-ls{
     text-align: center;
     position: relative;
@@ -87,10 +102,9 @@ body{
     color: #ff5a5a00;
     filter:grayscale(100%);
     filter:drop-shadow(0px);
-    font-family: 'Questrial', sans-serif;
-
-;
+    font-family: 'Bebas Neue', cursive;
 }
+
 .album-ls:hover{
     transition: 0.5s ease-in-out;
     top: -20px;
@@ -124,8 +138,11 @@ footer{
 }
 
 footer h5{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     margin-top: 20;
     color: #fff;
 }
+
+
+
