@@ -1,7 +1,6 @@
 body{
-    background-image: url('14731307_rm218-bb-07.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(18,18,18);
+    background: linear-gradient(0deg, rgba(18,18,18,1) 0%, rgba(255,0,0,1) 100%);
 }
 
 
