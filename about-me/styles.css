@@ -1,8 +1,9 @@
 body{
-    background: rgb(18,18,18);
-    background: linear-gradient(0deg, rgba(18,18,18,1) 0%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(60deg, #ff9797, #ff7940, #8c72ff, #58a0ff);
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    scroll-behavior: smooth;
 }
-
 
 .main{
     display: grid;
