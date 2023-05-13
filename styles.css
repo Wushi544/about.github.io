@@ -489,11 +489,13 @@ a:-webkit-any-link {
 
     /*Contact Form*/
     #fm{
+	margin-top: 200px;
         height: 700px;
         animation: fadeIn 1s ease-in backwards 3s;
     }
 
     #fm > h2{
+	margin: 100px;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         padding: 30px;
@@ -502,11 +504,10 @@ a:-webkit-any-link {
     }
 
     #em{
-        margin-left: 150px;
+        margin-left: 170px;
         margin-right: auto;
         width: 700px;
         display: block;
-        border-radius: 100px;
         box-sizing: border-box;
         outline: none;
         font-size: 30px;
@@ -524,13 +525,12 @@ a:-webkit-any-link {
 
     #dm{
         font-size: 30px;
-        margin-left: 150px;
+        margin-left: 170px;
         margin-right: auto;
         width: 700px;
         height: 200px;
         margin-top: 20px;
         display: block;
-        border-radius: 50px;
         box-sizing: border-box;
         outline: none;
         resize: none;
@@ -543,13 +543,12 @@ a:-webkit-any-link {
     }
 
     #bt{
-        margin-left: 150px;
+        margin-left: 170px;
         margin-right: auto;
         width: 700px;
         margin-top: 10px;
         margin-top: 20px;
         display: block;
-        border-radius: 100px;
         box-sizing: border-box;
         outline: none;
         border: 0px;
